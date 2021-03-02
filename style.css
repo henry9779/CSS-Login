@@ -37,3 +37,15 @@ body {
   color: #2ecc71;
   cursor: pointer;
 }
+
+.login input[type="text"]:focus, .login input[type="password"]:focus {
+  border: 2px solid #2ecc71;
+  width: 280px;
+  transition: 0.5s;
+}
+
+.login input[type="submit"]:hover {
+  background-color: #2ecc71;
+  color: #ffffff;
+  transition: 0.5s;
+}
